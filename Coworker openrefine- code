@@ -1,0 +1,2373 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Gender",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Male",
+          "male",
+          "Male ",
+          "MALE",
+          "Male.",
+          "male "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "Female",
+          "female",
+          "Female ",
+          "female ",
+          " Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      }
+    ],
+    "description": "Mass edit cells in column Gender"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Gender",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cis Male",
+          "cis male",
+          "Male (cis)",
+          "Cis male",
+          "Male (CIS)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Nonbinary",
+          "non-binary",
+          "Non-binary",
+          "nonbinary"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Female (cis)",
+          "Cis Female",
+          "cis female",
+          "female (cis)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Cisgender Female",
+          "Female (cisgender)",
+          "cisgender female",
+          "female (cisgender)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Mail",
+          "mail"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "Genderfluid",
+          "genderfluid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Genderqueer",
+          "genderqueer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "N/A",
+          "n/a"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Non binary",
+          "non binary"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Woman",
+          "woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Woman"
+      },
+      {
+        "from": [
+          "Cis-Female",
+          "cis-Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis-Female"
+      },
+      {
+        "from": [
+          "Human",
+          "human"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Human"
+      },
+      {
+        "from": [
+          "F",
+          "f"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "F"
+      },
+      {
+        "from": [
+          "Cis-male",
+          "cis-male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis-male"
+      },
+      {
+        "from": [
+          "Female (trans)",
+          "Trans female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female (trans)"
+      },
+      {
+        "from": [
+          "M",
+          "m"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M"
+      },
+      {
+        "from": [
+          "Dude",
+          "dude"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dude"
+      },
+      {
+        "from": [
+          "Contextual"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Contextual"
+      },
+      {
+        "from": [
+          "*shrug emoji* (F)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "*shrug emoji* (F)"
+      },
+      {
+        "from": [
+          "Transfeminine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Transfeminine"
+      },
+      {
+        "from": [
+          "My sex is female."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "My sex is female."
+      },
+      {
+        "from": [
+          "sometimes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sometimes"
+      },
+      {
+        "from": [
+          "SWM"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SWM"
+      },
+      {
+        "from": [
+          "None"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "None"
+      },
+      {
+        "from": [
+          "fem"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fem"
+      },
+      {
+        "from": [
+          "Nah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nah"
+      },
+      {
+        "from": [
+          "Female/gender non-binary."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female/gender non-binary."
+      },
+      {
+        "from": [
+          "Female (props for making this a freeform field, though)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female (props for making this a freeform field, though)"
+      },
+      {
+        "from": [
+          "Male/genderqueer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male/genderqueer"
+      },
+      {
+        "from": [
+          "I identify as female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "I identify as female"
+      },
+      {
+        "from": [
+          "Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "cis man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cis man"
+      },
+      {
+        "from": [
+          "uhhhhhhhhh fem genderqueer?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "uhhhhhhhhh fem genderqueer?"
+      },
+      {
+        "from": [
+          "mtf"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mtf"
+      },
+      {
+        "from": [
+          "transgender"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "transgender"
+      },
+      {
+        "from": [
+          "Agender"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Agender"
+      },
+      {
+        "from": [
+          "maile"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "maile"
+      },
+      {
+        "from": [
+          "Ostensibly Male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ostensibly Male"
+      },
+      {
+        "from": [
+          "femail"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "femail"
+      },
+      {
+        "from": [
+          "cisdude"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cisdude"
+      },
+      {
+        "from": [
+          "Genderqueer demigirl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Genderqueer demigirl"
+      },
+      {
+        "from": [
+          "AFAB"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AFAB"
+      },
+      {
+        "from": [
+          "msle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "msle"
+      },
+      {
+        "from": [
+          "queer/she/they"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "queer/she/they"
+      },
+      {
+        "from": [
+          "NB"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NB"
+      },
+      {
+        "from": [
+          "Trans-female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trans-female"
+      },
+      {
+        "from": [
+          "F, cisgender"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "F, cisgender"
+      },
+      {
+        "from": [
+          "gender non-conforming woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gender non-conforming woman"
+      },
+      {
+        "from": [
+          "Demiguy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Demiguy"
+      },
+      {
+        "from": [
+          "Male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "She/her/they/them"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "She/her/they/them"
+      },
+      {
+        "from": [
+          "Female or Multi-Gender Femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female or Multi-Gender Femme"
+      },
+      {
+        "from": [
+          "Genderflux demi-girl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Genderflux demi-girl"
+      },
+      {
+        "from": [
+          "Other"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "none of your business"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "none of your business"
+      },
+      {
+        "from": [
+          "Trans woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trans woman"
+      },
+      {
+        "from": [
+          "fm"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fm"
+      },
+      {
+        "from": [
+          "cis-female/femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cis-female/femme"
+      },
+      {
+        "from": [
+          "cis hetero male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cis hetero male"
+      },
+      {
+        "from": [
+          "Cisgendered woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cisgendered woman"
+      },
+      {
+        "from": [
+          "God King of the Valajar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "God King of the Valajar"
+      },
+      {
+        "from": [
+          "Cis-woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis-woman"
+      },
+      {
+        "from": [
+          "Man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Man"
+      },
+      {
+        "from": [
+          "Make"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Make"
+      },
+      {
+        "from": [
+          "Cisgender male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cisgender male"
+      },
+      {
+        "from": [
+          "Sex is male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sex is male"
+      },
+      {
+        "from": [
+          "p"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "p"
+      },
+      {
+        "from": [
+          "Cis woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis woman"
+      },
+      {
+        "from": [
+          "genderqueer woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "genderqueer woman"
+      },
+      {
+        "from": [
+          "Trans man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trans man"
+      },
+      {
+        "from": [
+          "Female-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female-ish"
+      },
+      {
+        "from": [
+          "Unicorn"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unicorn"
+      },
+      {
+        "from": [
+          "Nonbinary/femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nonbinary/femme"
+      },
+      {
+        "from": [
+          "Femake"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Femake"
+      },
+      {
+        "from": [
+          "Male-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male-ish"
+      },
+      {
+        "from": [
+          "female/woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "female/woman"
+      }
+    ],
+    "description": "Mass edit cells in column Gender"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Gender",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Contextual"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "*shrug emoji* (F)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "Transfeminine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "My sex is female."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "sometimes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "SWM"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "None"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "fem"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "Nah"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Female/gender non-binary."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female/gender non-binary."
+      },
+      {
+        "from": [
+          "Female (props for making this a freeform field, though)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female (props for making this a freeform field, though)"
+      },
+      {
+        "from": [
+          "Male/genderqueer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male/genderqueer"
+      },
+      {
+        "from": [
+          "I identify as female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "I identify as female"
+      },
+      {
+        "from": [
+          "Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "cis man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cis man"
+      },
+      {
+        "from": [
+          "uhhhhhhhhh fem genderqueer?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "uhhhhhhhhh fem genderqueer?"
+      },
+      {
+        "from": [
+          "mtf"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mtf"
+      },
+      {
+        "from": [
+          "transgender"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "transgender"
+      },
+      {
+        "from": [
+          "Agender"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Agender"
+      },
+      {
+        "from": [
+          "maile"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "maile"
+      },
+      {
+        "from": [
+          "Ostensibly Male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ostensibly Male"
+      },
+      {
+        "from": [
+          "femail"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "femail"
+      },
+      {
+        "from": [
+          "cisdude"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cisdude"
+      },
+      {
+        "from": [
+          "Genderqueer demigirl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Genderqueer demigirl"
+      },
+      {
+        "from": [
+          "AFAB"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AFAB"
+      },
+      {
+        "from": [
+          "msle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "msle"
+      },
+      {
+        "from": [
+          "queer/she/they"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "queer/she/they"
+      },
+      {
+        "from": [
+          "NB"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NB"
+      },
+      {
+        "from": [
+          "Trans-female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trans-female"
+      },
+      {
+        "from": [
+          "F, cisgender"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "F, cisgender"
+      },
+      {
+        "from": [
+          "gender non-conforming woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gender non-conforming woman"
+      },
+      {
+        "from": [
+          "Demiguy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Demiguy"
+      },
+      {
+        "from": [
+          "Male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "She/her/they/them"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "She/her/they/them"
+      },
+      {
+        "from": [
+          "Female or Multi-Gender Femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female or Multi-Gender Femme"
+      },
+      {
+        "from": [
+          "Genderflux demi-girl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Genderflux demi-girl"
+      },
+      {
+        "from": [
+          "Other"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Woman"
+      },
+      {
+        "from": [
+          "none of your business"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "none of your business"
+      },
+      {
+        "from": [
+          "Trans woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trans woman"
+      },
+      {
+        "from": [
+          "fm"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fm"
+      },
+      {
+        "from": [
+          "cis-female/femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cis-female/femme"
+      },
+      {
+        "from": [
+          "cis hetero male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cis hetero male"
+      },
+      {
+        "from": [
+          "Cisgendered woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cisgendered woman"
+      },
+      {
+        "from": [
+          "God King of the Valajar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "God King of the Valajar"
+      },
+      {
+        "from": [
+          "Cis-woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis-woman"
+      },
+      {
+        "from": [
+          "Cis-Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis-Female"
+      },
+      {
+        "from": [
+          "Man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Man"
+      },
+      {
+        "from": [
+          "Make"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Make"
+      },
+      {
+        "from": [
+          "Human"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Human"
+      },
+      {
+        "from": [
+          "Cisgender male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cisgender male"
+      },
+      {
+        "from": [
+          "F"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "F"
+      },
+      {
+        "from": [
+          "Cis-male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis-male"
+      },
+      {
+        "from": [
+          "Female (trans)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female (trans)"
+      },
+      {
+        "from": [
+          "Sex is male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sex is male"
+      },
+      {
+        "from": [
+          "M"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M"
+      },
+      {
+        "from": [
+          "p"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "p"
+      },
+      {
+        "from": [
+          "Cis woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis woman"
+      },
+      {
+        "from": [
+          "genderqueer woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "genderqueer woman"
+      },
+      {
+        "from": [
+          "Trans man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trans man"
+      },
+      {
+        "from": [
+          "Female-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female-ish"
+      },
+      {
+        "from": [
+          "Unicorn"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unicorn"
+      },
+      {
+        "from": [
+          "Nonbinary/femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nonbinary/femme"
+      },
+      {
+        "from": [
+          "Femake"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Femake"
+      },
+      {
+        "from": [
+          "Dude"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dude"
+      },
+      {
+        "from": [
+          "Male-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male-ish"
+      },
+      {
+        "from": [
+          "female/woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "female/woman"
+      }
+    ],
+    "description": "Mass edit cells in column Gender"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Gender",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Female/gender non-binary."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Female (props for making this a freeform field, though)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Male/genderqueer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "I identify as female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "cis man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "uhhhhhhhhh fem genderqueer?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "mtf"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "transgender"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Agender"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "maile"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "Ostensibly Male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "femail"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "cisdude"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Genderqueer demigirl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "AFAB"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "msle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "queer/she/they"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "NB"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Trans-female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "F, cisgender"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "gender non-conforming woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Demiguy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "She/her/they/them"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Female or Multi-Gender Femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Genderflux demi-girl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Genderflux demi-girl"
+      },
+      {
+        "from": [
+          "Other"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Woman"
+      },
+      {
+        "from": [
+          "none of your business"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "none of your business"
+      },
+      {
+        "from": [
+          "Trans woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trans woman"
+      },
+      {
+        "from": [
+          "fm"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fm"
+      },
+      {
+        "from": [
+          "cis-female/femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cis-female/femme"
+      },
+      {
+        "from": [
+          "cis hetero male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cis hetero male"
+      },
+      {
+        "from": [
+          "Cisgendered woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cisgendered woman"
+      },
+      {
+        "from": [
+          "God King of the Valajar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "God King of the Valajar"
+      },
+      {
+        "from": [
+          "Cis-woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis-woman"
+      },
+      {
+        "from": [
+          "Cis-Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis-Female"
+      },
+      {
+        "from": [
+          "Man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Man"
+      },
+      {
+        "from": [
+          "Make"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Make"
+      },
+      {
+        "from": [
+          "Human"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Human"
+      },
+      {
+        "from": [
+          "Cisgender male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cisgender male"
+      },
+      {
+        "from": [
+          "F"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "F"
+      },
+      {
+        "from": [
+          "Cis-male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis-male"
+      },
+      {
+        "from": [
+          "Female (trans)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female (trans)"
+      },
+      {
+        "from": [
+          "Sex is male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sex is male"
+      },
+      {
+        "from": [
+          "M"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M"
+      },
+      {
+        "from": [
+          "p"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "p"
+      },
+      {
+        "from": [
+          "Cis woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis woman"
+      },
+      {
+        "from": [
+          "genderqueer woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "genderqueer woman"
+      },
+      {
+        "from": [
+          "Trans man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trans man"
+      },
+      {
+        "from": [
+          "Female-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female-ish"
+      },
+      {
+        "from": [
+          "Unicorn"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unicorn"
+      },
+      {
+        "from": [
+          "Nonbinary/femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nonbinary/femme"
+      },
+      {
+        "from": [
+          "Femake"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Femake"
+      },
+      {
+        "from": [
+          "Dude"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dude"
+      },
+      {
+        "from": [
+          "Male-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male-ish"
+      },
+      {
+        "from": [
+          "female/woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "female/woman"
+      }
+    ],
+    "description": "Mass edit cells in column Gender"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Gender",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Genderflux demi-girl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Other"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "none of your business"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Trans woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "fm"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "cis-female/femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "cis hetero male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Cisgendered woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "God King of the Valajar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Cis-woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Cis-Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Man"
+      },
+      {
+        "from": [
+          "Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "Make"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Make"
+      },
+      {
+        "from": [
+          "Human"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Human"
+      },
+      {
+        "from": [
+          "Cisgender male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cisgender male"
+      },
+      {
+        "from": [
+          "F"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "F"
+      },
+      {
+        "from": [
+          "Cis-male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis-male"
+      },
+      {
+        "from": [
+          "Female (trans)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female (trans)"
+      },
+      {
+        "from": [
+          "Sex is male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sex is male"
+      },
+      {
+        "from": [
+          "M"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M"
+      },
+      {
+        "from": [
+          "p"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "p"
+      },
+      {
+        "from": [
+          "Cis woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cis woman"
+      },
+      {
+        "from": [
+          "genderqueer woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "genderqueer woman"
+      },
+      {
+        "from": [
+          "Trans man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trans man"
+      },
+      {
+        "from": [
+          "Female-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female-ish"
+      },
+      {
+        "from": [
+          "Unicorn"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unicorn"
+      },
+      {
+        "from": [
+          "Nonbinary/femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nonbinary/femme"
+      },
+      {
+        "from": [
+          "Femake"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Femake"
+      },
+      {
+        "from": [
+          "Dude"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dude"
+      },
+      {
+        "from": [
+          "Male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "Male-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male-ish"
+      },
+      {
+        "from": [
+          "female/woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "female/woman"
+      }
+    ],
+    "description": "Mass edit cells in column Gender"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Gender",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cisgender male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Other"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "F"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "Cis-male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Female (trans)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female (trans)"
+      },
+      {
+        "from": [
+          "Sex is male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "M"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "p"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Cis woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "genderqueer woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Trans man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trans man"
+      },
+      {
+        "from": [
+          "Man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Man"
+      },
+      {
+        "from": [
+          "Female-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female-ish"
+      },
+      {
+        "from": [
+          "Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "Unicorn"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unicorn"
+      },
+      {
+        "from": [
+          "Nonbinary/femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nonbinary/femme"
+      },
+      {
+        "from": [
+          "Femake"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Femake"
+      },
+      {
+        "from": [
+          "Make"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Make"
+      },
+      {
+        "from": [
+          "Human"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Human"
+      },
+      {
+        "from": [
+          "Dude"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dude"
+      },
+      {
+        "from": [
+          "Male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "Male-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male-ish"
+      },
+      {
+        "from": [
+          "female/woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "female/woman"
+      }
+    ],
+    "description": "Mass edit cells in column Gender"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Gender",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Other"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Female (trans)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Trans man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Man"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "Female-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "Unicorn"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Nonbinary/femme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Femake"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "Make"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "Human"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Dude"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "Male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "Male-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male-ish"
+      },
+      {
+        "from": [
+          "female/woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "female/woman"
+      }
+    ],
+    "description": "Mass edit cells in column Gender"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Gender",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Other"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      },
+      {
+        "from": [
+          "Female"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      },
+      {
+        "from": [
+          "Male"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "Male-ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Male"
+      },
+      {
+        "from": [
+          "female/woman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Female"
+      }
+    ],
+    "description": "Mass edit cells in column Gender"
+  }
+]
